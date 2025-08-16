@@ -1,0 +1,6 @@
+requests
+PyMuPDF
+sentence-transformers
+faiss-cpu
+gradio
+numpy
