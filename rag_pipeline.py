@@ -60,7 +60,7 @@ def generate_prompt(context,query):
     return prompt
 
 # --- Step 4: LLM Call via Groq ---
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR_API_KEY"
 
 def call_llm(prompt):
     url = "https://api.groq.com/openai/v1/chat/completions"
@@ -79,3 +79,4 @@ def call_llm(prompt):
 
     resp = requests.post(url, headers=headers, json=payload)
     return resp.json()["choices"][0]["message"]["content"]
+
