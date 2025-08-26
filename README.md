@@ -20,7 +20,8 @@ Instead of returning raw text chunks, the system uses **FAISS vector search** to
 - **FAISS** – for vector indexing and retrieval
 - **Sentence Transformers / OpenAI API** – for embeddings + answer generation
 - **Gradio** – for frontend UI
-- [**Hugging Face Spaces**]((https://huggingface.co/spaces/SKB3002/RAG_from_scratch_for_PDF_QandA))
+- **Hugging Face Spaces**
+- [HuggingFace Link](https://huggingface.co/spaces/SKB3002/RAG_from_scratch_for_PDF_QandA)
 
 ---
 
